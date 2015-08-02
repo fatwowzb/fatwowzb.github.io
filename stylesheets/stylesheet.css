@@ -461,9 +461,11 @@ h1.title {
 }
 
 #container {
-  border: 1px solid #2a2a2a;
-  background: #ddd url(../images/pattern.png);
-  box-shadow: 0 0 5px #b1b1b1;
+  border: 1px solid #119169;
+  background: #ddd;
+  box-shadow: 1px 0px 5px 0.2 #222;
+  width:800px;
+  margin:auto;
 }
 
 p.tagline {
@@ -473,14 +475,14 @@ p.tagline {
 }
 
 #main {
-  margin-top: 20px;
+  margin-top: 8px;
   padding: 0 20px 90px;
   background-color: #fff;
 }
 
 .download-bar {
-  background: #222;
-  border: 5px solid #444;
+  background: #0E414A;
+  border: 5px solid #0B7264;
   padding: 10px;
   margin: 0 -35px 20px;
   position: relative;
@@ -511,8 +513,8 @@ p.tagline {
 }
 
 .download-bar .blc {
-  border: 10px solid black;
-  border-color: transparent transparent black;
+  border: 10px solid #0B7264;
+  border-color: transparent transparent #0B7264;
   width: 0;
   height: 0;
   display: block;
@@ -525,8 +527,8 @@ p.tagline {
 }
 
 .download-bar .trc {
-  border: 10px solid black;
-  border-color:  black transparent transparent;
+  border: 10px solid #0B7264;
+  border-color:  #0B7264 transparent transparent;
   width: 0;
   height: 0;
   display: block;
