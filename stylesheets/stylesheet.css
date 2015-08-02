@@ -464,7 +464,7 @@ h1.title {
   border: 1px solid #119169;
   background: #ddd;
   box-shadow: 1px 0px 5px 0.2 #222;
-  width:800px;
+  width:750px;
   margin:auto;
 }
 
@@ -475,13 +475,15 @@ p.tagline {
 }
 
 #main {
-  margin-top: 8px;
+  margin-top: 2px;
   padding: 0 20px 90px;
   background-color: #fff;
 }
 
 .download-bar {
   background: #0E414A;
+  background-color: #159957;
+  background-image: linear-gradient(120deg, #155799, #159957);
   border: 5px solid #0B7264;
   padding: 10px;
   margin: 0 -35px 20px;
@@ -528,12 +530,12 @@ p.tagline {
 
 .download-bar .trc {
   border: 10px solid #0B7264;
-  border-color:  #0B7264 transparent transparent;
+  border-color: transparent #0B7264 transparent transparent;
   width: 0;
   height: 0;
   display: block;
   position: absolute;
-  top: -15px;
+  bottom: -15px;
   right: 0;
   transform: rotate(45deg);
   -ms-transform: rotate(45deg);  /* IE9 */
